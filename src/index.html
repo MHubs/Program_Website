@@ -17,9 +17,31 @@
     <!-- Custom styles for this template -->
     <link href="css/justified-nav.css" rel="stylesheet">
     <link href="css/album.css" rel="stylesheet">
-</head>
 
-<body>
+    <style>
+           body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+    </style>
+
+</head>
+<body class="parallax">
 
 <div class="navbar-collapse collapse inverse" id="navbar-header">
     <div class="container-fluid">
@@ -30,12 +52,14 @@
         <div class="social">
             <h4>Contact</h4>
             <ul class="list-unstyled">
-                <li><a href="#">Follow on Twitter</a></li>
-                <li><a href="#">Email me</a></li>
+                <li><a href="https://www.twitter.com/Max_Hubbard" target="_blank"><img src="Twitter_Logo.png"
+                                                                                       width="32px" height="32px"></a>
+                </li>
             </ul>
         </div>
     </div>
 </div>
+
 
 <div class="container">
 
@@ -81,18 +105,18 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
-            <h2>Who am I</h2>
-            <p>My name is Max and I am too lazy to write stuff here right now</p>
+            <h2 style="color:white">Who am I</h2>
+            <p style="color:white">My name is Max and I am too lazy to write stuff here right now</p>
             <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-            <h2>What I do</h2>
-            <p>I'm a programmer who makes things. Hence this website</p>
+            <h2 style="color:white">What I do</h2>
+            <p style="color:white">I'm a programmer who makes things. Hence this website</p>
             <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-            <h2>Give me money</h2>
-            <p>Like all people I like to eat, but money is hard to come by these days.</p>
+            <h2 style="color:white">Give me money</h2>
+            <p style="color:white">Like all people I like to eat, but money is hard to come by these days.</p>
             <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
     </div>

@@ -16,9 +16,33 @@
 
     <!-- Custom styles for this template -->
     <link href="css/justified-nav.css" rel="stylesheet">
+    <link href="css/album.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
+
+    <style>
+           body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+    </style>
+
 </head>
-<body>
+<body class="parallax">
 
 <div class="navbar-collapse collapse inverse" id="navbar-header">
     <div class="container-fluid">
@@ -29,13 +53,14 @@
         <div class="social">
             <h4>Contact</h4>
             <ul class="list-unstyled">
-                <li><a href="https://www.twitter.com/Max_Hubbard" target="_blank">
-                    <img src="Twitter_Logo.png" width="32" height="32">
-                </a></li>
+                <li><a href="https://www.twitter.com/Max_Hubbard" target="_blank"><img src="Twitter_Logo.png"
+                                                                                       width="32px" height="32px"></a>
+                </li>
             </ul>
         </div>
     </div>
 </div>
+
 
 <div class="container">
     <div class="masthead">
